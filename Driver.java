@@ -62,7 +62,6 @@ public class Driver {
 
                 if(dist.get(v) != Integer.MAX_VALUE && dist.get(v) + weight < dist.get(u)) {
                     dist.put(u, dist.get(v) + weight);
-                    pq.remove(u);
                     pq.add(u);
                 }
             }
