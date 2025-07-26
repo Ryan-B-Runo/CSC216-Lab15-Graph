@@ -15,4 +15,12 @@ public class AdjacencyMap {
         return this.vertices.get(index);
     }
 
+    public ArrayList<Vertex> getVertices() {
+        return this.vertices;
+    }
+
+    public int size() {
+        return this.vertices.size();
+    }
+
 }

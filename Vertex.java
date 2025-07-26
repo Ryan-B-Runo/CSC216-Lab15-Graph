@@ -25,4 +25,8 @@ public class Vertex {
         return adjacencyList.get(v);
     }
 
+    public HashMap<Vertex, Integer> getAdjacencyList() {
+        return adjacencyList;
+    }
+
 }
